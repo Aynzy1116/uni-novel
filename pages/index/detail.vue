@@ -13,7 +13,6 @@
 			}
 		},
 		onLoad(option){
-			
 			this.list = JSON.parse(option.item)
 			console.log('this.list ',this.list )
 		}

@@ -3,29 +3,25 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "首页",
-				"navigationBarBackgroundColor": "#fed3d3"
+				"navigationBarTitleText": "首页"
 			}
 		},
 		{
 			"path": "pages/chat/chat",
 			"style": {
-				"navigationBarTitleText": "聊天室",
-				"navigationBarBackgroundColor": "#fed3d3"
+				"navigationBarTitleText": "聊天室"
 			}
 		},
 		{
 			"path": "pages/personal/personal",
 			"style": {
-				"navigationBarTitleText": "个人",
-				"navigationBarBackgroundColor": "#fed3d3"
+				"navigationBarTitleText": "个人"
 			}
 		},
 		{
 			"path": "pages/index/detail",
 			"style": {
-				"navigationBarTitleText": "详情",
-				"navigationBarBackgroundColor": "#fed3d3"
+				"navigationBarTitleText": "详情"
 			}
 		}
 	],
@@ -48,7 +44,7 @@
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
+		"navigationBarBackgroundColor": "#fed3d3",
 		"backgroundColor": "#F8F8F8"
 	},
 	"uniIdRouter": {},
@@ -68,17 +64,17 @@
 	"condition": { //模式配置，仅在开发模式生效
 		"current": 0, //当前激活的模式（list 的索引项）  下面的list数组可以配置多个模式，‘0’代表第一项数据
 		"list": [{
-				"name": "首页", //模式名称
+				"name": "首页",
 				"path": "pages/index/index"
 				// "query": "orderId=1514903154360033282"
 			},
 			{
-				"name": "详情", //模式名称
+				"name": "详情",
 				"path": "pages/index/detail"
 				// "query": "type=login"
 			},
 			{
-				"name": "个人", //模式名称
+				"name": "个人",
 				"path": "pages/personal/personal"
 			}
 		]

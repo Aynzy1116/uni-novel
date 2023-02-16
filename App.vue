@@ -12,8 +12,7 @@
 	}
 </script>
 
-<style>
+<style lang="scss">
 	/*每个页面公共css */
-	@import "@/components/color-ui/main.css";
-	  @import "@/components/color-ui/icon.css";
+	@import "./common/css/main.css"
 </style>
