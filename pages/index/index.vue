@@ -36,7 +36,10 @@
 				this.currentIndex = index
 			},
 			goDetail(item){
-				
+				console.log(item);
+				uni.navigateTo({
+					url:`./detail?title=${item}`
+				})
 			}
 		}
 	}

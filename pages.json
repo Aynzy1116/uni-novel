@@ -21,7 +21,10 @@
 		{
 			"path": "pages/index/detail",
 			"style": {
-				"navigationBarTitleText": "详情"
+				"navigationBarTitleText": "详情",
+				"app-plus":{
+					"titleNView": false
+				}
 			}
 		}
 	],
@@ -43,7 +46,7 @@
 	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
+		// "navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#fed3d3",
 		"backgroundColor": "#F8F8F8"
 	},
@@ -61,17 +64,19 @@
 	// 		}
 	// 	}]
 	// }],
+	"easycom": {
+		"autoscan": true,
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
 	"condition": { //模式配置，仅在开发模式生效
 		"current": 0, //当前激活的模式（list 的索引项）  下面的list数组可以配置多个模式，‘0’代表第一项数据
 		"list": [{
 				"name": "首页",
 				"path": "pages/index/index"
-				// "query": "orderId=1514903154360033282"
 			},
 			{
 				"name": "详情",
 				"path": "pages/index/detail"
-				// "query": "type=login"
 			},
 			{
 				"name": "个人",
